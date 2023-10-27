@@ -1,8 +1,15 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Hackathon #3: Superheroes 🦹
 
-Currently, two official plugins are available:
+> **But… what is a Hackathon?**
+- Hacking is **creative problem solving**
+- A hackathon is any event of any duration where people come together to **solve problems**
+- Don’t expect to have actually solved a problem by the end of the hackathon. **Real life problems are hard!** Think of the hackathon as a pit-stop on a long journey to solve problems or as a training session to practice your **problem solving skills**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Install
+
+npm install
+
+# To run
+
+npm run dev
