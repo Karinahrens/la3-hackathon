@@ -1,10 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import App from './App'
+import reducer from './reducers';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const store = createStore(reducer);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+
+  <Provider store={store}>
+    <Router>
+      <App />
+    </Router>
+  </Provider>,
+);
