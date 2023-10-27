@@ -7,6 +7,7 @@ import reducer from './reducers';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
+
 const store = createStore(reducer);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

@@ -4,3 +4,29 @@
   padding: 2rem;
   text-align: center;
 }
+
+.superhero-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.superhero-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: calc(30% - 20px);
+  box-sizing: border-box;
+}
+
+.superhero-card h2 {
+  color: red;
+  font-size: 20px;
+  margin: 0;
+}
+
+.superhero-card img {
+  max-width: 100%;
+}
